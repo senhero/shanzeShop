@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="fullPageShow">
+<head>
+    <meta charset="utf-8">
+    <title>地址信息</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <link rel="stylesheet" href="css/swiper.min.css?v=1.0">
+    <link rel="stylesheet" href="css/iosSelect.css">
+    <script type="text/javascript" src="scripts/flexible.js"></script>
+</head>
+<body class="fullPageShow">
+<div class="main_box">
+    <div class="address-box">
+        <div class="m-address-form">
+            <div class="section">
+                <div class="row row-0">
+                    <input name="name" placeholder="姓名" value="">
+                </div>
+                <div class="row row-0">
+                    <input name="name" placeholder="手机号码" value="">
+                </div>
+                <div class="row row-0" id="select_contact">
+                    <input type="hidden" name="contact_province_code" data-id="0001" id="contact_province_code" value=""
+                           data-province-name="">
+                    <input type="hidden" name="contact_city_code" id="contact_city_code" value="" data-city-name="">
+                    <p class="input disabled" data-city-code="510100" data-province-code="510000"
+                       data-district-code="510105" id="show_contact">四川省 成都市 青羊区</p>
+                </div>
+                <div class="row row-0">
+                    <input name="address" placeholder="详细地址, 如街道、楼盘号等" value="">
+                </div>
+            </div>
+            <div class="section section-1">
+                <div class="w-chkbox"><i class="m-checkbox checked"></i><span>设为默认地址</span></div>
+            </div>
+        </div>
+        <div class="m-table fixed">
+            <div class="tr">
+                <div class="td"><a href="javascript:void(0);" class="address-btn">保存</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/iScroll.min.js"></script>
+<script src="scripts/iosSelect.min.js"></script>
+<script type="text/javascript" src="scripts/area.js"></script>
+</body>
+</html>

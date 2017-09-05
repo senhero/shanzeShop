@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="fullPageShow">
+<head>
+    <meta charset="utf-8">
+    <title>登录页面</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <script type="text/javascript" src="scripts/flexible.js"></script>
+</head>
+<body class="fullPageShow">
+<div class="main_box">
+    <div class="loginBox">
+        <div class="m_hd_top">
+            <div id="m_topbar" class="m_topbar">
+                <div class="row flex flex-c flex-j pos_r"><a class="m_toggle_close toggle"></a> <a href=""> <i
+                        class="logo u-logo-icon"></i> </a>
+                    <div class="m_top_right"><a href="" class="search"> <i class="u-search-icon u-icon"></i> </a> <a
+                            href="" class="cart"> <i class="u-cart-icon u-icon"> <span class="cart_num">12</span> </i>
+                    </a></div>
+                </div>
+                <div class="menu_list isMenuHide">
+                    <ul class="nav_list">
+                        <li class="item"><a href="/"><i class="u-icon u-icon-house"></i><span class="txt">首页</span></a>
+                        </li>
+                        <li class="item"><a href=""><i class="u-icon u-icon-topic"></i><span class="txt">专题</span></a>
+                        </li>
+                        <li class="item"><a href=""><i class="u-icon u-icon-cate"></i><span class="txt">分类</span></a>
+                        </li>
+                        <li class="item"><a href=""><i class="u-icon u-icon-profile"></i><span class="txt">个人</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="m_login_cotainer">
+            <form action="" method="post" enctype="">
+                <div class="input_box">
+                    <div class="u-input">
+                        <input data-placeholder="邮箱帐号" name="email" data-type="email" data-required="true"
+                               class="j-inputtext dlemail" type="text" autocomplete="off" placeholder="邮箱帐号">
+                    </div>
+                </div>
+                <div class="input_box">
+                    <div class="u-input">
+                        <input data-placeholder="密码" name="password" data-type="password" data-required="true"
+                               class="j-inputtext dlpass" type="text" autocomplete="off" placeholder="密码">
+                    </div>
+                </div>
+                <div class="errorMsg f-dn" id="nerror">
+                    <div class="tips ferrortail"></div>
+                    <div class="ferrorhead">请输入帐号</div>
+                </div>
+                <div class="submitBox">
+                    <input type="submit" class="submitSend" id="submitSend" value="登录"/>
+                </div>
+                <div class="m-unlogin"><a href="/reg">注册帐号</a> <a href="/resetpwd">忘记密码</a></div>
+                <div class="m-other-login">
+                    <div class="olist"><a href="" class="qq-login">QQ</a> <a href="" class="qq-wbo">微博</a></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+</body>
+<script src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+</html>
